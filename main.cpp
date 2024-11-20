@@ -13,7 +13,7 @@ int main() {
         cout<<"Inserire l'età"<<endl;
         cin>>eta;
 
-        if (eta>=18)
+        if (eta >= 18)
         {
             posti=persone;
         }
