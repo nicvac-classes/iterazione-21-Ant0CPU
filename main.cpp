@@ -2,11 +2,8 @@
 using namespace std;
 
 int main() {
-    int max, persone, eta, s;
-    float posti, somma;
-
-    max=30;
-    somma=0;
+    int max(30), persone(0), eta(0), s(0);
+    float posti(0), somma(0);
 
     while(somma<max)
     {
@@ -33,7 +30,8 @@ int main() {
         
         s=somma-max;
 
-        cout<<"Devono scendere "&s& "persone"<<endl;
+        cout<<"Devono scendere "<<s<<" persone"<<endl;
+        
     }
     else
     {
